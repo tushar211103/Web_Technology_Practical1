@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background: linear-gradient(to bottom, pink 0%, rgb(47, 136, 131) 26%, rgb(218, 200, 200) 26%, rgb(204, 201, 201) 100%);
+    
+}
+.para{
+    margin: 1% 0.4%;
+    padding: 1% 0.4%;
+}
+img{
+    margin-top: 6%;
+    width: 250px;
+    height: 245px;
+    clip-path: circle();
+}
+.flex,.info
+{
+display: flex;
+}
+.list{
+    display: inline-block;
+    text-align: left;
+}
+
+#img{
+    width: 45%;
+    text-align: center;
+}
+#obj{
+    width: 45%;
+    text-align: justify;
+}
+#Info{
+    /* float: right; */
+    width:50%;
+    border-right: 4px solid grey;
+}
+#lang{
+    /* float: right; */
+    width:50%;
+    text-align:center;
+}
+#education{
+    clear: both}
+    
+p{
+    padding-left: 6%;
+    font-size:25px;
+}
+h3
+{
+    padding-left: 4%;
+    font-size:35px;
+}
+h1{
+    margin: 4% auto;
+}
+pre{
+    float: right;
+    padding-right: 10%;
+    margin: 0;
+    line-height: 116%;
+}
+li{
+    font-size: 25px;
+}
+span{
+    font-size: 18px;
+}
+hr{
+    /* height: 3px; */
+    background-color: grey;
+    border-color: grey;
+    border-radius: 50%;
+}
